@@ -4,12 +4,11 @@
 - [Introduction](#Introduction)
 - [Precondition](#Precondition)
 - [Goal_of_this_project](#Goal_of_this_project)
-- [Goal of this project](#Goal of this project)
-- [Exercises for this project](#Exercises for this project)
-  - [Exercise 1: REST API](#Exercise 1: REST API)
-  - [Exercise 2: Data Aggregation and Visualization](#Exercise 2: Data Aggregation and Visualization)
-  - [Exercise 3: IoT Device Connectivity, Reporting, Alerting](#Exercise 3: IoT Device Connectivity, Reporting, Alerting)
-  - [Exercise 4: High-Level Interfacing](#Exercise 4: High-Level Interfacing)
+- [Exercises_for_this_project](#Exercises_for_this_project)
+  - [Exercise_1_(REST_API)](#Exercise_1_(REST_API))
+  - [Exercise_2_(Data_Aggregation_and_Visualization)](#Exercise_2_(Data_Aggregation_and_Visualization))
+  - [Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting)](#Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting))
+  - [Exercise_4_(High-Level_Interfacing)](#Exercise_4_(High-Level_Interfacing))
 
 ## Introduction 
 
@@ -28,9 +27,9 @@ in order to successfully complete this project, these requirements are necessary
 
 Define and implement a working solution using Python. Every participant in this project has to deliver Python code and, amongst other technology, work with Git version control
 
-## Exercises for this project
+## Exercises_for_this_project
 Note: Each exercise has been uploaded in a folder
-### Exercise 1: REST API
+### Exercise_1_(REST_API)
 Implement a REST service using Python and FastAPI.
 1. Implement a REST service in src/main.py using FastAPI that should provide the following end points:
 - "/sensors/1/datapoints": GET endpoint that returns a float list named data that contains the latest sensor data
@@ -41,7 +40,7 @@ Make sure that your service uses JSON for encoding the data.
 - Test if your service works correctly by running test/test_fastapi.py.
 - Make sure your code is pushed back into your personal namespace. You see if the automatic test ran correctly when a green tickmark appears.
 
-### Exercise 2: Data Aggregation and Visualization
+### Exercise_2_(Data_Aggregation_and_Visualization)
 In this exercise, you're going to set up InfluxDB for data aggregation and Grafana for visualization.
 1. Install Influx via Docker as described here: https://docs.influxdata.com/influxdb/v2/install/?t=Docker (make sure you run Docker 2.x and not some older version) OR create an Influx cloud account
 2. log in on http://localhost:8086 (or the cloud URL), respectively, set your organization name arbitrarily, create a bucket "smart-iot" and an API token
@@ -52,7 +51,7 @@ Also create a docker-compose configuration for your Influx+Grafana setup: https:
 
 Create then a dashboard that shows the information you are going to provide to the user in your demo scenario. Afterwards, make a screenshot of the dashboard and upload it.
 
-### Exercise 3: IoT Device Connectivity, Reporting, Alerting
+### Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting)
 This exercise deals with setting up some piece of IoT hardware and retrieving data from some sensors as well as generating automatic reports and alarms.
 
 Hardware Pick-Up:
@@ -76,5 +75,5 @@ Set up alerts for a concrete use case using InfluxDB, Grafana or a custom MicroP
 Whenever the user receives the alert, they should be able to quickly understand the problem in an intuitive way.
 
 
-### Exercise 4: High-Level Interfacing
+### Exercise_4_(High-Level_Interfacing)
 For your desired architecture, implement any missing REST APIs. At least one reasonable use of a self-implemented REST API needs to be included.
