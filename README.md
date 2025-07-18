@@ -6,9 +6,9 @@
 - [Goal_of_this_project](#Goal_of_this_project)
 - [Exercises_for_this_project](#Exercises_for_this_project)
   - [Exercise_1_REST_API](#Exercise_1_REST_API)
-  - [Exercise_2_(Data_Aggregation_and_Visualization)](#Exercise_2_(Data_Aggregation_and_Visualization))
-  - [Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting)](#Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting))
-  - [Exercise_4_(High-Level_Interfacing)](#Exercise_4_(High-Level_Interfacing))
+  - [Exercise_2_Data_Aggregation_and_Visualization](#Exercise_2_Data_Aggregation_and_Visualization)
+  - [Exercise_3_IoT_Device_Connectivity,Reporting,Alerting](#Exercise_3_IoT_Device_Connectivity,Reporting,Alerting)
+  - [Exercise_4_High-Level_Interfacing](#Exercise_4_High-Level_Interfacing)
 
 ## Introduction 
 
@@ -40,7 +40,7 @@ Make sure that your service uses JSON for encoding the data.
 - Test if your service works correctly by running test/test_fastapi.py.
 - Make sure your code is pushed back into your personal namespace. You see if the automatic test ran correctly when a green tickmark appears.
 
-### Exercise_2_(Data_Aggregation_and_Visualization)
+### Exercise_2_Data_Aggregation_and_Visualization
 In this exercise, you're going to set up InfluxDB for data aggregation and Grafana for visualization.
 1. Install Influx via Docker as described here: https://docs.influxdata.com/influxdb/v2/install/?t=Docker (make sure you run Docker 2.x and not some older version) OR create an Influx cloud account
 2. log in on http://localhost:8086 (or the cloud URL), respectively, set your organization name arbitrarily, create a bucket "smart-iot" and an API token
@@ -51,7 +51,7 @@ Also create a docker-compose configuration for your Influx+Grafana setup: https:
 
 Create then a dashboard that shows the information you are going to provide to the user in your demo scenario. Afterwards, make a screenshot of the dashboard and upload it.
 
-### Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting)
+### Exercise_3_IoT_Device_Connectivity,Reporting,Alerting
 This exercise deals with setting up some piece of IoT hardware and retrieving data from some sensors as well as generating automatic reports and alarms.
 
 Hardware Pick-Up:
@@ -75,5 +75,5 @@ Set up alerts for a concrete use case using InfluxDB, Grafana or a custom MicroP
 Whenever the user receives the alert, they should be able to quickly understand the problem in an intuitive way.
 
 
-### Exercise_4_(High-Level_Interfacing)
+### Exercise_4_High-Level_Interfacing
 For your desired architecture, implement any missing REST APIs. At least one reasonable use of a self-implemented REST API needs to be included.
