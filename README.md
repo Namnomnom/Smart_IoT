@@ -7,8 +7,9 @@
 - [Exercises_for_this_project](#Exercises_for_this_project)
   - [Exercise_1_REST_API](#Exercise_1_REST_API)
   - [Exercise_2_Data_Aggregation_and_Visualization](#Exercise_2_Data_Aggregation_and_Visualization)
-  - [Exercise_3_IoT_Device_Connectivity,Reporting,Alerting](#Exercise_3_IoT_Device_Connectivity,Reporting,Alerting)
-  - [Exercise_4_High-Level_Interfacing](#Exercise_4_High-Level_Interfacing)
+  - [Exercise_3_IoT_Device_Connectivity,Reporting,Alerting](#exercise_3_IoT_Device_Connectivity,Reporting,Alerting)
+  - [Exercise_4_High-Level_Interfacing](#exercise_4_High-Level_Interfacing)
+- [Architecture](#architecture)
 
 ## Introduction 
 
@@ -77,3 +78,8 @@ Whenever the user receives the alert, they should be able to quickly understand 
 
 ### Exercise_4_High-Level_Interfacing
 For your desired architecture, implement any missing REST APIs. At least one reasonable use of a self-implemented REST API needs to be included.
+
+## Architecture
+<div align="center">
+  <img width="650" height="auto" src="images/deployment_diagram.png">
+</div>
