@@ -81,5 +81,5 @@ For your desired architecture, implement any missing REST APIs. At least one rea
 
 ## Architecture
 <div align="center">
-  <img width="650" height="auto" src="images/deployment_diagram.png">
+  <img width="650" height="auto" src="images/system_architecture_bedtimelivestock.png">
 </div>
