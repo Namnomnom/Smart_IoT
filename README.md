@@ -80,6 +80,8 @@ Whenever the user receives the alert, they should be able to quickly understand 
 For your desired architecture, implement any missing REST APIs. At least one reasonable use of a self-implemented REST API needs to be included.
 
 ## Architecture
+
 <div align="center">
   <img width="650" height="auto" src="images/system_architecture_bedtimelivestock.png">
 </div>
+
