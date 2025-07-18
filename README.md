@@ -5,7 +5,7 @@
 - [Precondition](#Precondition)
 - [Goal_of_this_project](#Goal_of_this_project)
 - [Exercises_for_this_project](#Exercises_for_this_project)
-  - [Exercise_1_(REST_API)](#Exercise_1_(REST_API))
+  - [Exercise_1_REST_API](#Exercise_1_REST_API)
   - [Exercise_2_(Data_Aggregation_and_Visualization)](#Exercise_2_(Data_Aggregation_and_Visualization))
   - [Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting)](#Exercise_3_(IoT_Device_Connectivity,Reporting,Alerting))
   - [Exercise_4_(High-Level_Interfacing)](#Exercise_4_(High-Level_Interfacing))
@@ -29,7 +29,7 @@ Define and implement a working solution using Python. Every participant in this 
 
 ## Exercises_for_this_project
 Note: Each exercise has been uploaded in a folder
-### Exercise_1_(REST_API)
+### Exercise_1_REST_API
 Implement a REST service using Python and FastAPI.
 1. Implement a REST service in src/main.py using FastAPI that should provide the following end points:
 - "/sensors/1/datapoints": GET endpoint that returns a float list named data that contains the latest sensor data
